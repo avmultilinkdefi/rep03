@@ -23,7 +23,7 @@ const makeCommit = (n) => {
   const x = random.int(0, 54);
   const y = random.int(0, 6);
   const DATE = moment()
-    .subtract(2, "y")       // We are going two years back from today's date
+    .subtract(1, "y")       // We are going two years back from today's date
     .add(1, "d")            // Then adding 1 day to it
     .add(x, "w")            // This will be the x-Axis in the contribution graph, which is adding week(s)
     .add(y, "d")            // This will be the y-Axis in the contribution graph, which is adding day(s)
@@ -41,4 +41,4 @@ const makeCommit = (n) => {
   });
 };
 
-makeCommit(120);
+makeCommit(100);

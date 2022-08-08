@@ -1,0 +1,28 @@
+{
+  "name": "github-commit-bot",
+  "version": "1.0.0",
+  "description": "Make commits to the GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajun7/github-commit-bot.git"
+  },
+  "keywords": [
+    "gitHub-commit"
+  ],
+  "author": "Prajun Trital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajun7/github-commit-bot/issues"
+  },
+  "homepage": "https://github.com/prajun7/github-commit-bot#readme",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.4",
+    "random": "^3.0.6",
+    "simple-git": "^3.12.0"
+  }
+}
