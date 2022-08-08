@@ -1,8 +1,13 @@
 # Bot to add commits in GitHub
 **Idea from Akshay Saini**
 
-**This is only for educational propose.
+**This is only for educational purpose.
 That's why all the commits made from this repo are public in my profile.**
+
+<img width="689" alt="687474703a2f2f692e696d6775722e636f6d2f6536446c7a66412e706e67" src="https://user-images.githubusercontent.com/67757251/183503742-3845ee01-376f-4bd2-a4ab-bb4843386aad.png">
+
+### You can make patterns or write text.
+
 
 ## Main Idea
 The main idea is that, we are making commits in the past date. Whenever we make any commits to any repo, GitHub tracks them by associating those commits with a specific time(i.e. the date and time when we created that commit). So, here we are manipulating that time to some past date, so we can make commits in the past. And when we push those commits with modified date and time, GitHub populates the contribution graph based on those past dates.
@@ -49,3 +54,6 @@ add(days, "d");
 #### To modify days(y-Axis), you need to change this variable 'y' [here](https://github.com/prajun7/github-commit-bot/blob/main/index.js#L24)<br>
 #### The top left corner of the contribution graph has the (0,0) coordinates.<br>
 #### So, based on this information you can make commits at a specific point in the contribution graph and can make some beautiful pattern or text.<br>
+<img width="689" alt="save" src="https://user-images.githubusercontent.com/67757251/183504543-3e3e239e-4e57-4494-9222-3cab7e59fe30.png">
+<img width="689" alt="water" src="https://user-images.githubusercontent.com/67757251/183504549-2f56bf58-0dcc-44b9-aad4-3d4c15086e3e.png">
+
