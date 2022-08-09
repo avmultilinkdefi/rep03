@@ -1,5 +1,5 @@
 # Bot to add commits in GitHub
-**Idea from Akshay Saini**
+**Idea from Akshay Saini.**
 
 **This is only for educational purpose.
 That's why all the commits made from this repo are public in my profile.**
@@ -12,7 +12,7 @@ That's why all the commits made from this repo are public in my profile.**
 The main idea is that we are making commits in the past date. Whenever we make any commits to any repo, GitHub tracks them by associating those commits with a specific time (i.e. the date and time when we created that commit). So, here we are manipulating that time to some past date so we can make commits in the past. And when we push those commits with modified date and time, GitHub populates the contribution graph based on those past dates.
 
 **Does this works for future date as well?**<br>
-**If you are curious do try it out and let me know**
+**If you are curious do try it out**
 
 ## Coding approach 
 - As we need to manipulate the date, we will use a package called **[Moment](https://www.npmjs.com/package/moment)**. It is a JavaScript library for parsing, validating, manipulating, and formatting dates.<br>
